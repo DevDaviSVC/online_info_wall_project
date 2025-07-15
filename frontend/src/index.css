@@ -8,3 +8,38 @@
 html, body {
   min-height: 100vh;
 }
+
+:root {
+  --cinza-texto-base: #666;
+  --vermelho-base: #b20000;
+}
+
+section {
+  width: 96%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.container {
+  width: 96%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.container-flex > div {
+  width: 50%;
+}
+
+.section-title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* HEADER */
+
